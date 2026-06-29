@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoury - Essence of Pure Ceylon</title>
+    <meta name="description" content="Savoury brings you the finest handcrafted Ceylon tea from the heart of Sri Lanka. Pure. Natural. Authentic.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <!-- Logo -->
+                <img src="assets/logo.jpg" alt="Savoury Logo">
+            </a>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#products" class="shop-btn">Shop Now <i class="fas fa-shopping-cart"></i></a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        
+        <!-- Premium Realistic Steam Effect -->
+        <div class="steam-container">
+            <div class="steam-layer steam-1"></div>
+            <div class="steam-layer steam-2"></div>
+            <div class="steam-layer steam-3"></div>
+            <div class="steam-layer steam-4"></div>
+            <div class="steam-layer steam-5"></div>
+            <div class="steam-layer steam-6"></div>
+            <div class="steam-layer steam-7"></div>
+            <div class="steam-layer steam-8"></div>
+            <div class="steam-layer steam-9"></div>
+            <div class="steam-layer steam-10"></div>
+            <div class="heat-distortion"></div>
+        </div>
+        
+        <div class="hero-content luxury-hero-layout">
+            <div class="hero-brand-top">
+                <i class="fas fa-leaf leaf-left"></i>
+                <span class="brand-text">Savoury</span>
+                <i class="fas fa-leaf leaf-right"></i>
+            </div>
+            
+            <div class="hero-divider top-divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-white">Essence of</span>
+                <span class="title-gold">Pure Ceylon</span>
+            </h1>
+            
+            <div class="hero-divider bottom-divider">
+                <div class="divider-line"></div>
+                <i class="fas fa-leaf divider-leaf"></i>
+                <div class="divider-line"></div>
+            </div>
+            
+            <p class="hero-subtitle">Handcrafted with Nature. Perfected for You.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">🌿 Explore Our Teas</a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-mouse"></i>
+            Scroll Down
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="about" class="our-story">
+        <div class="container story-grid fade-up">
+            <div class="story-content">
+                <div class="section-subtitle">Our Story</div>
+                <h2 class="section-title">Crafted in the Heart of Sri Lanka</h2>
+                <p class="story-text">
+                    Nestled in the lush landscapes of Pitigala, Sri Lanka, Savoury was founded with a passion for preserving the authentic taste of premium Ceylon tea.
+                </p>
+                <p class="story-text">
+                    Every leaf is carefully handpicked and expertly crafted in small batches to deliver exceptional freshness, rich aroma, and natural flavor.
+                </p>
+                <p class="story-text">
+                    Inspired by generations of Sri Lankan tea heritage, we bring the essence of nature to every cup.
+                </p>
+                <div class="story-cursive" style="font-size: 2rem;">
+                    "Every cup tells a story of Sri Lanka's finest tea gardens."
+                </div>
+                <a href="#gallery" id="journey-scroll-btn" class="btn btn-primary btn-gold-hover">Discover Our Journey</a>
+            </div>
+            
+            <div class="story-image-card fade-up">
+                <div class="story-img-wrapper zoom-on-hover">
+                    <!-- Local image path (please save your preferred image here) -->
+                    <img src="assets/story-image.jpg" alt="Tea plantation at sunrise">
+                </div>
+                <div class="story-features">
+                    <div class="feature-item">
+                        <i class="fas fa-leaf feature-icon glow-hover"></i>
+                        <span class="feature-text"><strong>Handpicked Tea Leaves</strong><br>Carefully selected at peak freshness.</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-mug-hot feature-icon glow-hover"></i>
+                        <span class="feature-text"><strong>Small Batch Crafted</strong><br>Prepared with traditional Sri Lankan expertise.</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-seedling feature-icon glow-hover"></i>
+                        <span class="feature-text"><strong>100% Pure Ceylon Tea</strong><br>Premium quality with no artificial additives.</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-heart feature-icon glow-hover"></i>
+                        <span class="feature-text"><strong>Natural Ingredients</strong><br>Blended with real ginger and cinnamon.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container stats-container fade-up">
+            <div class="stat-item">
+                <div class="stat-number-wrapper">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+                </div>
+                <div class="stat-label">Handcrafted</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number-wrapper">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+                </div>
+                <div class="stat-label">Pure Ceylon Tea</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number-wrapper">
+                    <span class="stat-number" data-target="4">0</span><span class="stat-plus"></span>
+                </div>
+                <div class="stat-label">Signature Tea Blends</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-text" style="font-size: 1.5rem; font-weight: 600; font-family: var(--font-heading); color: var(--color-primary-dark);">Made in</div>
+                <div class="stat-label" style="font-size: 1.5rem; font-weight: 700; color: var(--color-accent); margin-top: 5px;">Sri Lanka</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Teas Section -->
+    <section id="products" class="our-teas luxury-teas">
+        <!-- Decorative particles -->
+        <div class="luxury-particles"></div>
+        
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-subtitle" style="color: var(--color-accent);">Premium Selection</div>
+                <h2 class="section-title" style="font-family: var(--font-heading); color: var(--color-primary-dark);">Crafted for Every Moment</h2>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card luxury-card fade-up">
+                    <div class="badge badge-green">100% Natural</div>
+                    <div class="product-img luxury-img">
+                        <img src="assets/product-green.jpg" alt="Handmade Green Tea">
+                    </div>
+                    <h3 class="product-title luxury-title">Handmade Green Tea</h3>
+                    <p class="product-desc luxury-desc">100% Pure Ceylon Tea<br>25 Tea Bags - 50g</p>
+                    <div class="product-price luxury-price">
+                        LKR 500.00
+                    </div>
+                    <div class="quantity-container" style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <label style="font-size: 0.9rem; color: #555; font-weight: 500;">Qty:</label>
+                        <input type="number" class="qty-input" value="1" min="1" max="10" style="width: 60px; padding: 5px; border: 1px solid var(--color-border); border-radius: 4px; text-align: center; font-family: var(--font-body);">
+                    </div>
+                    
+                    <button onclick="orderWhatsApp('Handmade Green Tea', this)" class="btn w-100 glow-btn" style="margin-top: 10px; background-color: #25D366; color: white; border: none; cursor: pointer;">Order Now <i class="fab fa-whatsapp"></i></button>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card luxury-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="badge badge-green">100% Natural</div>
+                    <div class="product-img luxury-img">
+                        <img src="assets/product-black.jpg" alt="Handmade Black Tea">
+                    </div>
+                    <h3 class="product-title luxury-title">Handmade Black Tea</h3>
+                    <p class="product-desc luxury-desc">100% Pure Ceylon Tea<br>Loose Leaf - 100g</p>
+                    <div class="product-price luxury-price">
+                        LKR 350.00
+                    </div>
+                    <div class="quantity-container" style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <label style="font-size: 0.9rem; color: #555; font-weight: 500;">Qty:</label>
+                        <input type="number" class="qty-input" value="1" min="1" max="10" style="width: 60px; padding: 5px; border: 1px solid var(--color-border); border-radius: 4px; text-align: center; font-family: var(--font-body);">
+                    </div>
+                    
+                    <button onclick="orderWhatsApp('Handmade Black Tea', this)" class="btn w-100 glow-btn" style="margin-top: 10px; background-color: #25D366; color: white; border: none; cursor: pointer;">Order Now <i class="fab fa-whatsapp"></i></button>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card luxury-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="badge badge-green">100% Natural</div>
+                    <div class="product-img luxury-img">
+                        <img src="assets/product-ginger.jpg" alt="Black Tea with Ginger">
+                    </div>
+                    <h3 class="product-title luxury-title">Black Tea with Ginger</h3>
+                    <p class="product-desc luxury-desc">Ceylon Black Tea with Natural Ginger<br>Loose Leaf - 100g</p>
+                    <div class="product-price luxury-price">
+                        LKR 400.00
+                    </div>
+                    <div class="quantity-container" style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <label style="font-size: 0.9rem; color: #555; font-weight: 500;">Qty:</label>
+                        <input type="number" class="qty-input" value="1" min="1" max="10" style="width: 60px; padding: 5px; border: 1px solid var(--color-border); border-radius: 4px; text-align: center; font-family: var(--font-body);">
+                    </div>
+                    
+                    <button onclick="orderWhatsApp('Black Tea with Ginger', this)" class="btn w-100 glow-btn" style="margin-top: 10px; background-color: #25D366; color: white; border: none; cursor: pointer;">Order Now <i class="fab fa-whatsapp"></i></button>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card luxury-card fade-up" style="transition-delay: 0.3s;">
+                    <div class="badge badge-green">100% Natural</div>
+                    <div class="product-img luxury-img">
+                        <img src="assets/product-cinnamon.jpg" alt="Black Tea with Cinnamon">
+                    </div>
+                    <h3 class="product-title luxury-title">Black Tea with Cinnamon</h3>
+                    <p class="product-desc luxury-desc">Ceylon Black Tea with Natural Cinnamon<br>20 Tea Bags - 40g</p>
+                    <div class="product-price luxury-price">
+                        LKR 350.00
+                    </div>
+                    <div class="quantity-container" style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <label style="font-size: 0.9rem; color: #555; font-weight: 500;">Qty:</label>
+                        <input type="number" class="qty-input" value="1" min="1" max="10" style="width: 60px; padding: 5px; border: 1px solid var(--color-border); border-radius: 4px; text-align: center; font-family: var(--font-body);">
+                    </div>
+                    
+                    <button onclick="orderWhatsApp('Black Tea with Cinnamon', this)" class="btn w-100 glow-btn" style="margin-top: 10px; background-color: #25D366; color: white; border: none; cursor: pointer;">Order Now <i class="fab fa-whatsapp"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Wellness Section -->
+    <section id="benefits" class="luxury-wellness">
+        <!-- Floating particles and steam effects -->
+        <div class="wellness-particles"></div>
+        <div class="wellness-steam"></div>
+        
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="section-header fade-up">
+                <div class="section-subtitle" style="color: var(--color-accent);">Holistic Wellness</div>
+                <h2 class="section-title" style="color: #FAF8F2; font-family: var(--font-heading);">The Essence of Vitality</h2>
+            </div>
+            
+            <div class="wellness-grid">
+                <!-- Card 1 -->
+                <div class="wellness-card fade-up">
+                    <div class="wellness-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965879.png" alt="Heart Health">
+                    </div>
+                    <h4 class="wellness-title">Heart Health</h4>
+                    <p class="wellness-desc">Rich in antioxidants that support a healthy heart and improve circulation, nurturing your body from within.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="wellness-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="wellness-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965306.png" alt="Boosts Immunity">
+                    </div>
+                    <h4 class="wellness-title">Immune Defense</h4>
+                    <p class="wellness-desc">Strengthens your natural immune system and protects against illnesses with pure, natural compounds.</p>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="wellness-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="wellness-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965875.png" alt="Aids Digestion">
+                    </div>
+                    <h4 class="wellness-title">Digestive Harmony</h4>
+                    <p class="wellness-desc">Natural ginger and Ceylon blends soothe the stomach, improving digestion for total internal balance.</p>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="wellness-card fade-up">
+                    <div class="wellness-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965313.png" alt="Boosts Metabolism">
+                    </div>
+                    <h4 class="wellness-title">Metabolic Vitality</h4>
+                    <p class="wellness-desc">Our premium green tea naturally increases metabolism and supports balanced weight management.</p>
+                </div>
+                
+                <!-- Card 5 -->
+                <div class="wellness-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="wellness-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965322.png" alt="Blood Sugar Balance">
+                    </div>
+                    <h4 class="wellness-title">Sugar Balance</h4>
+                    <p class="wellness-desc">Pure Ceylon cinnamon helps regulate blood sugar levels naturally, promoting sustained energy.</p>
+                </div>
+                
+                <!-- Card 6 -->
+                <div class="wellness-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="wellness-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965311.png" alt="Relieves Stress">
+                    </div>
+                    <h4 class="wellness-title">Stress Relief</h4>
+                    <p class="wellness-desc">Calming natural compounds promote deep relaxation, reducing stress for a peaceful state of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="luxury-gallery">
+        <!-- Background particles -->
+        <div class="luxury-particles"></div>
+        
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="section-header fade-up">
+                <div class="section-subtitle" style="color: var(--color-accent);">Visual Journey</div>
+                <h2 class="section-title" style="font-family: var(--font-heading); color: var(--color-primary-dark);">The Savoury Experience</h2>
+            </div>
+            
+            <!-- Gallery Filters -->
+            <div class="gallery-filters fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="gardens">Tea Gardens</button>
+                <button class="filter-btn" data-filter="harvest">Harvest</button>
+                <button class="filter-btn" data-filter="products">Products</button>
+                <button class="filter-btn" data-filter="experience">Tea Experience</button>
+            </div>
+            
+            <!-- Masonry Grid -->
+            <div class="masonry-grid fade-up">
+                <div class="masonry-item fade-up" data-category="gardens">
+                    <img src="assets/teaplantation1.jpg" alt="Sunrise Plantation">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Sunrise Plantation</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="harvest">
+                    <img src="assets/harvest.jpg" alt="Handpicked Leaves">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Handpicked Leaves</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="products">
+                    <img src="assets/tea product1.png" alt="Handmade Green Tea">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Handmade Green Tea</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="experience">
+                    <img src="assets/tea experiance 1.jpg" alt="The Perfect Brew">
+                    <div class="masonry-overlay"><h4 class="masonry-title">The Perfect Brew</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="experience">
+                    <img src="assets/tea expiriance4.png" alt="Tea Tasting">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Tea Tasting</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="gardens">
+                    <img src="assets/teaplantation2.png" alt="Lush Tea Valleys">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Lush Tea Valleys</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="products">
+                    <img src="assets/tea product2.png" alt="Black Tea with Cinnamon">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Black Tea with Cinnamon</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="experience">
+                    <img src="assets/tea expiriance 2.jpg" alt="Aromatic Steeping">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Aromatic Steeping</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="harvest">
+                    <img src="assets/harvest2.png" alt="Traditional Plucking">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Traditional Plucking</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="products">
+                    <img src="assets/tea product3.png" alt="Black Tea with Ginger">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Black Tea with Ginger</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="gardens">
+                    <img src="assets/teaplantation3.png" alt="Hill Country Estates">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Hill Country Estates</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="experience">
+                    <img src="assets/tea expiriance 3.jpg" alt="Morning Ritual">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Morning Ritual</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="products">
+                    <img src="assets/tea product4.png" alt="Pure Black Tea">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Pure Black Tea</h4></div>
+                </div>
+                
+                <div class="masonry-item fade-up" data-category="harvest">
+                    <img src="assets/harvest3.png" alt="Fresh Harvest">
+                    <div class="masonry-overlay"><h4 class="masonry-title">Fresh Harvest</h4></div>
+                </div>
+            </div>
+            
+            <div class="gallery-btn-wrapper fade-up" style="text-align: center; margin-top: 50px;">
+                <a href="#about" class="btn btn-gold-outline glow-btn" style="display: inline-block; padding: 15px 40px; font-size: 1rem;">Explore Our Journey</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-nav lightbox-prev"><i class="fas fa-chevron-left"></i></div>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <div class="lightbox-nav lightbox-next"><i class="fas fa-chevron-right"></i></div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section luxury-contact">
+        <!-- Decorative Leaves -->
+        <i class="fas fa-leaf decor-leaf decor-leaf-1"></i>
+        <i class="fas fa-leaf decor-leaf decor-leaf-2"></i>
+        
+        <div class="container">
+            <div class="contact-header fade-up">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-subtitle">Let's Brew Something Wonderful Together</div>
+                <p class="contact-desc">We'd love to hear from you. Contact us for orders,<br>wholesale inquiries, or any questions.</p>
+            </div>
+            
+            <div class="contact-container fade-up">
+                <div class="contact-info luxury-contact-info">
+                    <div class="contact-list">
+                        <div class="contact-list-item luxury-contact-item">
+                            <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                            <span class="contact-text">132 B, Godamuna,<br>Pitigala, Sri Lanka</span>
+                        </div>
+                        <div class="contact-list-item luxury-contact-item">
+                            <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                            <span class="contact-text">+94 70 195 0551</span>
+                        </div>
+                        <div class="contact-list-item luxury-contact-item">
+                            <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                            <span class="contact-text">savouryfoodproduct@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="business-hours">
+                        <h4>Business Hours</h4>
+                        <div class="hours-grid">
+                            <div class="hours-row">
+                                <span class="day">Monday – Friday</span>
+                                <span class="time">8:00 AM – 5:00 PM</span>
+                            </div>
+                            <div class="hours-row">
+                                <span class="day">Saturday</span>
+                                <span class="time">8:00 AM – 1:00 PM</span>
+                            </div>
+                            <div class="hours-row">
+                                <span class="day">Sunday</span>
+                                <span class="time closed">Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links luxury-socials">
+                        <a href="https://www.facebook.com/share/1DaHKSFYfA/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/savouryfoodproduct?igsh=MW1rcjhsNjRueTd4NA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/94701950551" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form luxury-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number (optional)">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit luxury-submit">
+                            Send Your Message <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="map-container luxury-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.518177439366!2d80.125272!3d6.1581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1770000000001%3A0xe63b9f33b1e3de26!2sPitigala%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1717200000000!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="luxury-footer">
+        <div class="footer-gold-line"></div>
+        <i class="fas fa-leaf footer-decor footer-decor-left"></i>
+        <i class="fas fa-leaf footer-decor footer-decor-right"></i>
+        
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="footer-grid luxury-footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo luxury-footer-logo">
+                        <img src="assets/logo.jpg" alt="Savoury Logo">
+                    </a>
+                    <p class="footer-desc">
+                        Authentic handmade Ceylon tea from the lush southern hills of Sri Lanka. Crafted in small batches for a rich, natural, and unforgettable tea experience.
+                    </p>
+                    <div class="footer-contact-divider"></div>
+                    <div class="footer-contact-info luxury-contact-info-footer">
+                        <div class="footer-contact-item luxury-footer-contact">
+                            <div class="contact-icon-circle"><i class="fas fa-map-marker-alt"></i></div> Pitigala, Sri Lanka
+                        </div>
+                        <div class="footer-contact-item luxury-footer-contact">
+                            <div class="contact-icon-circle"><i class="fas fa-phone-alt"></i></div> +94 70 195 0551
+                        </div>
+                        <div class="footer-contact-item luxury-footer-contact">
+                            <div class="contact-icon-circle"><i class="fas fa-envelope"></i></div> savouryfoodproduct@gmail.com
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-links luxury-footer-links">
+                    <h4>Quick Links</h4>
+                    <div class="links-grid">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#products">Products</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#benefits">Benefits</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="newsletter luxury-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with our latest teas, special offers, and seasonal collections.</p>
+                    <form class="newsletter-form luxury-newsletter-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit">Subscribe &rarr;</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-trust-badges">
+                <div class="trust-badge"><i class="fas fa-leaf"></i> 100% Pure Ceylon Tea</div>
+                <div class="trust-badge"><i class="fas fa-coffee"></i> Small Batch Crafted</div>
+                <div class="trust-badge"><i class="fas fa-seedling"></i> Natural Ingredients</div>
+                <div class="trust-badge"><i class="fas fa-globe-asia"></i> Made in Sri Lanka</div>
+            </div>
+            
+            <div class="footer-bottom luxury-footer-bottom">
+                &copy; 2026 Savoury Food Product. All Rights Reserved.<br>Proudly handcrafted in Sri Lanka 🇱🇰
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
